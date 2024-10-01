@@ -19,13 +19,8 @@ const newArray = nums.map((num) => {
 console.log(newArray);
 
 
-const petsArray = ['Rover', 'Snuffles', 'Toto', 'Spot'];
+// Given the following array, use destructuring to pull out the first and second values and place them into variables. Log both variables.
 
-const [firstPet, secondPet] = petsArray;
+const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
 
-console.log(firstPet); // 'Rover'
-console.log(secondPet); // 'Snuffles'
-
-// Equivalent in traditional bracket notation:
-console.log(petsArray[0]); // 'Rover'
-console.log(petsArray[1]); // 'Snuffles'
+// Your code here
